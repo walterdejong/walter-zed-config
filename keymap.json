@@ -1,0 +1,28 @@
+[
+  {
+    "context": "Editor",
+    "bindings": {
+      "ctrl-left": "editor::MoveToPreviousWordStart",
+      "ctrl-right": "editor::MoveToNextWordEnd",
+      "ctrl-home": "editor::MoveToBeginning",
+      "ctrl-end": "editor::MoveToEnd",
+      "ctrl-pageup": "editor::MoveToBeginning",
+      "ctrl-pagedown": "editor::MoveToEnd",
+      "ctrl-shift-left": "editor::SelectToPreviousWordStart",
+      "ctrl-shift-right": "editor::SelectToNextWordEnd",
+      "shift-pageup": "editor::SelectToStartOfParagraph",
+      "shift-pagedown": "editor::SelectToEndOfParagraph",
+      "ctrl-shift-home": "editor::SelectToBeginning",
+      "ctrl-shift-end": "editor::SelectToEnd",
+      "ctrl-backspace": "editor::DeleteToPreviousWordStart",
+      "ctrl-c": "editor::Copy",
+      "ctrl-x": "editor::Cut",
+      "ctrl-v": "editor::Paste",
+      "ctrl-z": "editor::Undo",
+      "ctrl-s": "workspace::Save",
+      "ctrl-j": "go_to_line::Toggle",
+      "cmd-j": "go_to_line::Toggle",
+      "ctrl-f": "buffer_search::Deploy"
+    }
+  }
+]
