@@ -401,7 +401,7 @@
         "ghost_element.active": "#454a56ff",
         "ghost_element.selected": "#454a56ff",
         "ghost_element.disabled": "#2f343eff",
-        "text": "#c8ccd4ff",
+        "text": "#ccccccff",
         "text.muted": "#838994ff",
         "text.placeholder": "#555a63ff",
         "text.disabled": "#555a63ff",
@@ -559,7 +559,7 @@
             "font_weight": null
           },
           "boolean": {
-            "color": "#bf956aff",
+            "color": "#ffffffff",
             "font_style": null,
             "font_weight": null
           },
@@ -589,17 +589,17 @@
             "font_weight": null
           },
           "emphasis": {
-            "color": "#74ade8ff",
+            "color": "#cccc00ff",
             "font_style": null,
             "font_weight": null
           },
           "emphasis.strong": {
-            "color": "#bf956aff",
+            "color": "#cc0000ff",
             "font_style": null,
             "font_weight": 700
           },
           "enum": {
-            "color": "#d07277ff",
+            "color": "#cccc00ff",
             "font_style": null,
             "font_weight": null
           },
@@ -619,17 +619,17 @@
             "font_weight": null
           },
           "label": {
-            "color": "#74ade8ff",
+            "color": "#ccccccff",
             "font_style": null,
             "font_weight": null
           },
           "link_text": {
-            "color": "#73ade9ff",
+            "color": "#0077ffff",
             "font_style": "normal",
             "font_weight": null
           },
           "link_uri": {
-            "color": "#6eb4bfff",
+            "color": "#0077ffff",
             "font_style": null,
             "font_weight": null
           },
@@ -679,12 +679,12 @@
             "font_weight": null
           },
           "punctuation.list_marker": {
-            "color": "#ccccccff",
+            "color": "#ffffffff",
             "font_style": null,
             "font_weight": null
           },
           "punctuation.special": {
-            "color": "#ccccccff",
+            "color": "#ffffffff",
             "font_style": null,
             "font_weight": null
           },
@@ -724,7 +724,7 @@
             "font_weight": null
           },
           "title": {
-            "color": "#d07277ff",
+            "color": "#cccc00ff",
             "font_style": null,
             "font_weight": 400
           },
