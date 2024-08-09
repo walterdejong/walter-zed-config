@@ -23,16 +23,13 @@
   "indent_guides": {
     "enabled": false
   },
-  "wrap_guides": [80, 120],
   "languages": {
     "Python": {
       "preferred_line_length": 120,
       "format_on_save": "off",
       "remove_trailing_whitespace_on_save": true,
       "use_autoclose": true,
-      "show_wrap_guides": true
-    },
-    "markdown": {
+      "wrap_guides": [80, 120],
       "show_wrap_guides": true
     }
   }
