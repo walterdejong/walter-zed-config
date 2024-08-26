@@ -1,4 +1,4 @@
-Personal `zed` config, plus personal themes:
+Personal `zed` editor config, plus themes:
 
 * light
 * dark
