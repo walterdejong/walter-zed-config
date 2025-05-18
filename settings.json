@@ -10,8 +10,9 @@
   "theme": "Walter in the Light",
   "ui_font_size": 16,
   "buffer_font_family": "Source Code Pro",
-  "buffer_font_size": 14,
-  "buffer_font_weight": 400,
+  "buffer_font_size": 14.0,
+  "buffer_font_weight": 600,
+  "cursor_shape": "block",
   "cursor_blink": false,
   "soft_wrap": "none",
   "format_on_save": "off",
@@ -23,14 +24,25 @@
   "indent_guides": {
     "enabled": false
   },
+  "wrap_guides": [80, 120],
+  "show_wrap_guides": true,
+  "remove_trailing_whitespace_on_save": true,
   "languages": {
     "Python": {
       "preferred_line_length": 120,
+      "format_on_save": "off"
+    },
+    "C": {
       "format_on_save": "off",
-      "remove_trailing_whitespace_on_save": true,
-      "use_autoclose": true,
-      "wrap_guides": [80, 120],
-      "show_wrap_guides": true
+      "hard_tabs": true
+    },
+    "C++": {
+      "format_on_save": "off",
+      "hard_tabs": true
+    },
+    "Go": {
+      "format_on_save": "on",
+      "hard_tabs": true
     }
   }
 }
