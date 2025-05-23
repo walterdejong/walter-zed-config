@@ -27,7 +27,7 @@
         "ghost_element.active": "#454a56ff",
         "ghost_element.selected": "#454a56ff",
         "ghost_element.disabled": "#2f343eff",
-        "text": "#ccccccff",
+        "text": "#d3b58cff",
         "text.muted": "#838994ff",
         "text.placeholder": "#555a63ff",
         "text.disabled": "#555a63ff",
@@ -52,7 +52,7 @@
         "scrollbar.thumb.border": "#363c46ff",
         "scrollbar.track.background": "#00000000",
         "scrollbar.track.border": "#2e333cff",
-        "editor.foreground": "#ccccccff",
+        "editor.foreground": "#d3b58cff",
         "editor.background": "#062626ff",
         "editor.gutter.background": "#24292eff",
         "editor.subheader.background": "#2f343eff",
@@ -200,7 +200,7 @@
             "font_weight": null
           },
           "constant": {
-            "color": "#ccccccff",
+            "color": "#d3b58cff",
             "font_style": null,
             "font_weight": null
           },
@@ -230,7 +230,7 @@
             "font_weight": null
           },
           "function": {
-            "color": "#ccccccff",
+            "color": "#d3b58cff",
             "font_style": null,
             "font_weight": null
           },
@@ -245,7 +245,7 @@
             "font_weight": null
           },
           "label": {
-            "color": "#ccccccff",
+            "color": "#d3b58cff",
             "font_style": null,
             "font_weight": null
           },
@@ -265,7 +265,7 @@
             "font_weight": null
           },
           "operator": {
-            "color": "#ffffffff",
+            "color": "#d3b58cff",
             "font_style": null,
             "font_weight": null
           },
@@ -285,22 +285,22 @@
             "font_weight": null
           },
           "property": {
-            "color": "#ccccccff",
+            "color": "#d3b58cff",
             "font_style": null,
             "font_weight": null
           },
           "punctuation": {
-            "color": "#ccccccff",
+            "color": "#d3b58cff",
             "font_style": null,
             "font_weight": null
           },
           "punctuation.bracket": {
-            "color": "#ccccccff",
+            "color": "#d3b58cff",
             "font_style": null,
             "font_weight": null
           },
           "punctuation.delimiter": {
-            "color": "#ccccccff",
+            "color": "#d3b58cff",
             "font_style": null,
             "font_weight": null
           },
@@ -360,7 +360,7 @@
             "font_weight": null
           },
           "variable": {
-            "color": "#ccccccff",
+            "color": "#d3b58cff",
             "font_style": null,
             "font_weight": null
           },
