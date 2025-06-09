@@ -260,7 +260,7 @@
             "font_weight": null
           },
           "number": {
-            "color": "#83e8ccff",
+            "color": "#2ae47cff",
             "font_style": null,
             "font_weight": null
           },
@@ -275,7 +275,7 @@
             "font_weight": null
           },
           "preproc": {
-            "color": "#ffffffff",
+            "color": "#2ae47cff",
             "font_style": null,
             "font_weight": null
           },
@@ -355,7 +355,7 @@
             "font_weight": 400
           },
           "type": {
-            "color": "#ffffffff",
+            "color": "#2ae47cff",
             "font_style": null,
             "font_weight": null
           },
