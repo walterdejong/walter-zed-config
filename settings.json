@@ -44,5 +44,12 @@
       "format_on_save": "on",
       "hard_tabs": true
     }
+  },
+  "features": {
+    "edit_prediction_provider": "none"
+  },
+  "agent": {
+    "enabled": false,
+    "version": "2"
   }
 }
