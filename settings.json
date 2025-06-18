@@ -30,7 +30,8 @@
   "languages": {
     "Python": {
       "preferred_line_length": 120,
-      "format_on_save": "off"
+      "format_on_save": "off",
+      "language_servers": ["!pylsp", "pyright"]
     },
     "C": {
       "format_on_save": "off",
