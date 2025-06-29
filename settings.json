@@ -27,6 +27,8 @@
   "wrap_guides": [80, 120],
   "show_wrap_guides": true,
   "remove_trailing_whitespace_on_save": true,
+  "tab_size": 4,
+  "hard_tabs": false,
   "languages": {
     "Python": {
       "preferred_line_length": 120,
@@ -44,6 +46,13 @@
     "Go": {
       "format_on_save": "on",
       "hard_tabs": true
+    },
+    "JSON": {
+      "hard_tabs": false
+    },
+    "markdown": {
+      "remove_trailing_whitespace_on_save": false,
+      "hard_tabs": false
     }
   },
   "features": {
