@@ -15,6 +15,11 @@
       "ctrl-shift-home": "editor::SelectToBeginning",
       "ctrl-shift-end": "editor::SelectToEnd",
       "ctrl-backspace": "editor::DeleteToPreviousWordStart",
+      "ctrl-a": ["editor::MoveToBeginningOfLine", {
+        "stop_at_indent": true,
+        "stop_at_soft_wraps": true
+      }],
+      "ctrl-e": "editor::MoveToEndOfLine",
       "ctrl-c": "editor::Copy",
       "ctrl-x": "editor::Cut",
       "ctrl-v": "editor::Paste",
@@ -22,7 +27,51 @@
       "ctrl-s": "workspace::Save",
       "ctrl-j": "go_to_line::Toggle",
       "cmd-j": "go_to_line::Toggle",
-      "ctrl-f": "buffer_search::Deploy"
+      "ctrl-f": "buffer_search::Deploy",
+      "ctrl-w |": "pane::SplitRight",
+      "ctrl-w -": "pane::SplitHorizontal",
+      "ctrl-w left": "workspace::ActivatePaneLeft",
+      "ctrl-w right": "workspace::ActivatePaneRight",
+      "ctrl-w up": "workspace::ActivatePaneUp",
+      "ctrl-w down": "workspace::ActivatePaneDown",
+      "escape .": "editor::GoToDefinition",
+      "escape ,": "pane::GoBack",
+      "ctrl-b left": "pane::ActivatePreviousItem",
+      "ctrl-b right": "pane::ActivateNextItem"
+    }
+  },
+  {
+    "context": "Editor",
+    "unbind": {
+      "ctrl-a": "editor::SelectAll"
+    }
+  },
+  {
+    "context": "Pane",
+    "bindings": {
+      "ctrl-w d": [
+        "pane::CloseActiveItem",
+        {
+          "close_pinned": false
+        }
+      ],
+      "ctrl-b d": [
+        "pane::CloseActiveItem",
+        {
+          "close_pinned": false
+        }
+      ]
+    }
+  },
+  {
+    "context": "Pane",
+    "unbind": {
+      "ctrl-w": [
+        "pane::CloseActiveItem",
+        {
+          "close_pinned": false
+        }
+      ]
     }
   }
 ]
