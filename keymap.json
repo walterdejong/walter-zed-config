@@ -83,5 +83,29 @@
     "bindings": {
       "ctrl-up": "editor::MoveToStartOfParagraph"
     }
+  },
+  {
+    "context": "Editor",
+    "unbind": {
+      "ctrl-y": "editor::Redo"
+    }
+  },
+  {
+    "context": "Editor",
+    "unbind": {
+      "ctrl-shift-k": "editor::DeleteLine"
+    }
+  },
+  {
+    "context": "Editor",
+    "bindings": {
+      "ctrl-y": [
+        "action::Sequence",
+        [
+            ["editor::SelectLine", 0],
+            ["editor::Cut", 0]
+        ]
+      ]
+    }
   }
 ]
