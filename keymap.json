@@ -119,5 +119,17 @@
     "unbind": {
       "alt-down": "editor::MoveLineDown"
     }
+  },
+  {
+    "context": "Editor",
+    "bindings": {
+      "alt-up": "editor::MovePageUp"
+    }
+  },
+  {
+    "context": "Editor",
+    "bindings": {
+      "alt-down": "editor::MovePageDown"
+    }
   }
 ]
