@@ -107,5 +107,17 @@
         ]
       ]
     }
+  },
+  {
+    "context": "Editor",
+    "unbind": {
+      "alt-up": "editor::MoveLineUp"
+    }
+  },
+  {
+    "context": "Editor",
+    "unbind": {
+      "alt-down": "editor::MoveLineDown"
+    }
   }
 ]
