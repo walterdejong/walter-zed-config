@@ -43,6 +43,9 @@
       "format_on_save": "off",
       "hard_tabs": true
     },
+    "Make": {
+      "hard_tabs": true
+    },
     "Go": {
       "format_on_save": "on",
       "hard_tabs": true
