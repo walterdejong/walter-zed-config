@@ -20,14 +20,35 @@
         "stop_at_soft_wraps": true
       }],
       "ctrl-e": "editor::MoveToEndOfLine",
+
       "ctrl-c": "editor::Copy",
+      "cmd-c": "editor::Copy",
+      "alt-c": "editor::Copy",
+
       "ctrl-x": "editor::Cut",
+      "cmd-x": "editor::Cut",
+      "alt-x": "editor::Cut",
+
       "ctrl-v": "editor::Paste",
+      "cmd-v": "editor::Paste",
+      "alt-v": "editor::Paste",
+
       "ctrl-z": "editor::Undo",
+      "cmd-z": "editor::Undo",
+      "alt-z": "editor::Undo",
+
       "ctrl-s": "workspace::Save",
+      "cmd-s": "workspace::Save",
+      "alt-s": "workspace::Save",
+
       "ctrl-j": "go_to_line::Toggle",
       "cmd-j": "go_to_line::Toggle",
+      "alt-j": "go_to_line::Toggle",
+
       "ctrl-f": "buffer_search::Deploy",
+      "cmd-f": "buffer_search::Deploy",
+      "alt-f": "buffer_search::Deploy",
+
       "ctrl-w |": "pane::SplitRight",
       "ctrl-w -": "pane::SplitHorizontal",
       "ctrl-w left": "workspace::ActivatePaneLeft",
